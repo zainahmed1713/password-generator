@@ -1,8 +1,10 @@
+import PassGenerator from "./assets/components/PassGenerator";
+
 function App() {
   return (
-    <>
-      <h1 className="text-xl font-bold text-red-700">Hello World</h1>
-    </>
+    <div className="main-container w-full h-screen bg-[#000823] flex justify-center items-center">
+      <PassGenerator />
+    </div>
   );
 }
 
