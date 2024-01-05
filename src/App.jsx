@@ -1,3 +1,4 @@
+import React from "react";
 import PassGenerator from "./assets/components/PassGenerator";
 
 function App() {
